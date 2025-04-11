@@ -1,0 +1,117 @@
+#about {
+  width: 100vw;
+  min-height: 100vh;
+  max-height: auto;
+}
+/* Bild und Texteil aufteilen */
+#about>section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 6rem;
+  padding: 6rem;
+}
+
+/* Textteil gestalten */
+#about h2 {
+  color: hsl(238, 91%, 30%);
+  font-size: 3rem;
+  line-height: 5rem;
+  font-family: 'Michroma', sans-serif;
+  border-bottom: 1px hsl(238, 91%, 30%) solid;
+}
+
+#about p {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* Textteil und Links aufteilen */
+#about>section>section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* links gestalten */
+#about>section>section ul *{
+  font-size: 1.3rem;
+  color: hsl(238, 91%, 30%);
+}
+
+#about>section>section li{
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+#about>section>section ul a:hover {
+  text-decoration: underline;
+}
+
+/* Button gestalten */
+#about button {
+  background-color: Transparent;
+  cursor:pointer;
+  border: 2px hsl(238, 91%, 30%) solid;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.4rem;
+  outline:none;
+  transition: .2s ease-in-out;
+}
+
+form {
+  margin-top: 4rem;
+  align-self: center;
+}
+
+#about Button:hover {
+  transition: .2s ease-in-out;
+  background-color: hsl(238, 91%, 30%, 0.1);
+  cursor: pointer;
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 0.3em hsl(238, 91%, 30%);
+}
+
+/* Image gestalten */
+#about img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  box-shadow: -1rem 3rem 2rem hsl(0, 0%, 30%);
+}
+
+#about h2:last-child{
+  display: flex;
+  margin: 5rem 35% 0 35%;
+  justify-content: center;
+  align-content: center;
+  border-bottom: none;
+  border-top: 1px hsl(238, 91%, 30%) solid;
+}
+
+@media screen
+  and (max-width: 734px)
+    and (orientation: portrait){
+      #about section {
+        padding: 1rem;
+        max-height: auto;
+        grid-template-columns: 1fr;
+      }
+
+      #about {
+        height: auto;
+      }
+
+      #about p {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+      }
+
+      #about img {
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+      }
+}

@@ -1,0 +1,49 @@
+nav ul {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 0.5em 0.5em;
+  box-shadow: 0 4px 2px -2px hsl(0, 0%, 90%);
+}
+
+nav ul li {
+  margin: 0.7rem;
+  padding: 2rem;
+}
+
+nav li a {
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Michroma', sans-serif;
+}
+
+nav ul li:last-child{
+  margin-right: 12rem;
+}
+
+nav li:hover {
+  background-color: hsl(0, 0%, 85%);
+}
+
+nav {
+  height: 8vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-radius: 0 0 0.5em 0.5em;
+  box-shadow: 0 0  2rem grey;
+}
+
+ul:first-of-type img {
+  position: absolute;
+  left: 12vw;
+  height: 20vh;
+}
+
+.selected{
+  color:hsl(0, 100%, 50%);
+}

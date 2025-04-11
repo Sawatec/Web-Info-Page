@@ -1,0 +1,50 @@
+#html5 {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*h2 {
+  font-size: 3em;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Michroma', sans-serif;
+}
+
+#html5 ol {
+  width: 80%;
+  margin:  10em; auto;
+}
+
+#html5 ol li {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  border: 2px solid lightgrey;
+}
+
+li div:first-of-type{
+  width: 10%;
+}
+
+li div:nth-of-type(2){
+  width: 70%;
+}
+
+li div:last-of-type{
+  width: 20%;
+}*/
+
+#html5 p {
+  display: flex;
+  height: 85vh;
+  font-size: 2rem;
+  word-spacing: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem;
+  border: 1px black solid;
+  font-family: 'Michroma', sans-serif;
+}

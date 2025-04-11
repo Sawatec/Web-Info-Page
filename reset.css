@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.platzhalter {
+  height: 8vh;
+}
+
+html{
+  background-color: hsl(0, 0%, 95%);
+}

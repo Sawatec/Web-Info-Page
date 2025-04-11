@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="modal.css">
+    <link href="https://fonts.googleapis.com/css?family=Michroma|Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="kontakt.js"></script>
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <header>
+      <img src="Images/logo.png" alt="Logo">
+      <a href="index.html"><img src="Images/close.svg" alt="close Button"></a>
+    </header>
+    <div id="modal">
+        <div id="modal-content">
+            <span id="closeBtn">&times;</span>
+            <p id="content">
+            </p>
+        </div>
+    </div>
+    <form>
+      <fieldset>
+        <legend><img src="Images/me.jpg" alt="ME"></legend>
+        <p>Thanks for taking the time to reach out.
+           How can I help you?</p>
+           <div>
+             <label for="name">Name</label>
+             <input type="text" id="name" name="name">
+             <label for="em">Email-Adresse</label>
+             <input type="email" name="daten" id="em">
+             <label for="text">Message</label>
+             <textarea id="text" name="text" cols="35" rows="4"></textarea>
+           </div>
+           <button type="button" name="button" id="sbtBtn">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

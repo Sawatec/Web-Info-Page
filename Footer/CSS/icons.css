@@ -1,0 +1,49 @@
+footer {
+  padding: 10rem;
+  padding-bottom: 4rem;
+  background-color: white;
+}
+
+footer section {
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px black solid;
+}
+
+footer section img {
+  height: 4rem;
+}
+
+footer section div {
+  margin: 2rem;
+}
+
+footer section img:hover {
+  transition: 0.15s ease-out;
+  height: 4.5rem;
+}
+
+
+footer form button {
+  border: 2px black solid;
+  background-color: white;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.4rem;
+  margin:auto;
+  display:block;
+  padding: 1em 2em 1em 2em;
+  transition: .2s ease-in-out;
+}
+
+footer form button:hover {
+  transition: .2s ease-in-out;
+  background-color: black;
+  cursor: pointer;
+  transform: translateY(-6px);
+  box-shadow: 0px 0px 0.3em black;
+  color: white;
+}

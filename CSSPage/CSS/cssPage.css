@@ -1,0 +1,18 @@
+#CSS3 {
+  width: 100vw;
+  height: 100vh;
+}
+
+#CSS3 p {
+  background-color: white;
+  display: flex;
+  height: 85vh;
+  font-size: 2rem;
+  word-spacing: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem;
+  border: 1px black solid;
+  font-family: 'Michroma', sans-serif;
+}
